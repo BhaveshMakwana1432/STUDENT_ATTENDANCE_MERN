@@ -1,0 +1,131 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+}
+
+
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+.loginLogo:hover{
+  color: rgb(21, 0, 21);
+}
+
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.loginBoxr{
+    
+  margin-top: 20px;
+    border: 1px solid black;
+    height: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 2px;
+    width: 250px;
+}
+
+.selectOption{
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+    /* background-color: transparent; */
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 2px;
+    width: 275px;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButton{
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  /* background-color: #1775ee; */
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 275px;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #000000 0%,
+    #434343 29%,
+    #2b2829 67%,
+    #7b7b6f 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 33px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
